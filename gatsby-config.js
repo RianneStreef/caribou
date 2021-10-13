@@ -28,5 +28,18 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/Layout`),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Concert One`, `Montserrat`, `source sans pro\:100,300,400`],
+        display: "swap",
+      },
+    },
   ],
 };

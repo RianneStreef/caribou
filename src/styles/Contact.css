@@ -1,0 +1,27 @@
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-page > * {
+  width: 50%;
+}
+
+input {
+  border: 2px solid var(--color-highlight);
+  border-radius: 40px;
+  width: 80%;
+}
+
+textarea {
+  border: 2px solid var(--color-highlight);
+  border-radius: 20px;
+  width: 80%;
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
