@@ -29,6 +29,12 @@ module.exports = {
       __key: "images",
     },
     {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -150,
+      },
+    },
+    {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/components/Layout`),

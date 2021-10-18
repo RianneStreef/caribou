@@ -1,12 +1,13 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import SnackLanding from "../components/SnackLanding";
+
+import "../styles/SnackPage.css";
 
 const SnackPage = () => {
   return (
     <div>
-      <SnackLanding />
+      <div className="snack-landing">Snack Landing</div>;
     </div>
   );
 };

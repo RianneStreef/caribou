@@ -1,12 +1,13 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import RestaurantLanding from "../components/RestaurantLanding";
+
+import "../styles/RestaurantPage.css";
 
 const RestaurantPage = () => {
   return (
     <div>
-      <RestaurantLanding />
+      <div className="restaurant-landing">Restaurant Landing</div>;
     </div>
   );
 };

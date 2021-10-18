@@ -1,18 +1,28 @@
 
 :root {
-  --color-highlight: #191945;
-  /* --color-highlight: rgb(158, 4, 4) ; */
+  --color-highlight: #fff; 
+  --color-background: #3e3e3e;
+  --color-text: #fff; 
 }
 
 body {
   padding: 0;
   margin: 0;
+  background-color: var(--color-background);
 }
 
-h2 {
+h2, h3, h4{
   text-align: center;
   font-family: 'Concert One', cursive;
   color: var(--color-highlight)
+}
+
+.h2-color-inverse {
+  color: var(--color-text);
+}
+
+.h3-color-inverse {
+  color: var(--color-background);
 }
 
 p {
@@ -30,6 +40,7 @@ p {
   padding: 5px 10px;
   color: var(--color-highlight);
   background-color: transparent;
+  transition: all 500ms ease-in;
   border-radius: 50px;
   min-width: 100px;
   border: solid 3px var(--color-highlight);
@@ -37,4 +48,15 @@ p {
   text-transform: uppercase;
   font-family: 'Concert One', cursive;
 }
+
+.button:hover {
+  color: var(--color-background);
+  background-color: var(--color-highlight);
+  transition: all 500ms ease-in;
+}
+
+a {
+  text-decoration: none;
+}
+
 

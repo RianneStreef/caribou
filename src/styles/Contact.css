@@ -1,27 +1,44 @@
 .contact-page {
+  background-image: url("../images/wood-background-black.jpeg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: var(--color-text)
 }
 
 .contact-page > * {
   width: 50%;
+  padding: 20px 60px;
+
 }
 
 input {
   border: 2px solid var(--color-highlight);
   border-radius: 40px;
-  width: 80%;
+  width: 90%;
+  background-color:transparent;
+  color: var(--color-text);
 }
 
 textarea {
   border: 2px solid var(--color-highlight);
   border-radius: 20px;
-  width: 80%;
+  width: 90%;
+  background-color:transparent;
+  color: var(--color-text);
 }
 
 .contact-button-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

@@ -3,7 +3,9 @@ import PlatDuJour from "../components/PlatDuJour";
 
 import "../styles/Intro.css";
 
-const Intro = () => {
+const Intro = (props) => {
+  let { platDuJour, prix, description } = props;
+
   return (
     <div>
       <h2>Welcome</h2>
@@ -37,7 +39,11 @@ const Intro = () => {
             enim, cursus ut enim vitae, porta facilisis ex.
           </p>
         </div>
-        <PlatDuJour />
+        <PlatDuJour
+          platDuJour={platDuJour}
+          prix={prix}
+          description={description}
+        />
       </div>
     </div>
   );

@@ -1,8 +1,0 @@
-.promo {
-  background-image: url("../images/wood-background-blue.jpeg");
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: repeat;
-  background-color: var(--color-highlight);
-  min-height: 50vh;
-}

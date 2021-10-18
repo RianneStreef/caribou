@@ -1,8 +1,14 @@
 .welcome-container {
+  background-image: url("../images/wood-background-black.jpeg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--color-background);
+  color: var(--color-text)
 }
 
 .welcome-text {

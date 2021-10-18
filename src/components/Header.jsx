@@ -1,5 +1,8 @@
 import React from "react";
 
+import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
+
 import "../styles/Header.css";
 
 const Header = () => {
@@ -9,10 +12,19 @@ const Header = () => {
         <h1>Chalet le Caribou</h1>
 
         <ul className="nav">
-          <li className="nav-item">New</li>
-          <li className="nav-item">Contact</li>
-          <li className="nav-item">Restaurant</li>
-          <li className="nav-item">Snack</li>
+          <AnchorLink to="/#new">
+            <li className="nav-item">New</li>
+          </AnchorLink>
+          <AnchorLink to="/#contact">
+            <li className="nav-item">Contact</li>
+          </AnchorLink>
+
+          <Link to="/restaurant">
+            <li className="nav-item">Restaurant</li>
+          </Link>
+          <Link to="/snack">
+            <li className="nav-item">Snack</li>
+          </Link>
         </ul>
       </nav>
     </div>
