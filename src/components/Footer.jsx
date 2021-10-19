@@ -1,25 +1,56 @@
 import React from "react";
+import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../styles/Footer.css";
 
-import Mail from "../images/envelope-icon.png";
-import Phone from "../images/mobile-icon.png";
-import Instagram from "../images/instagram-icon.png";
-import Winter from "../images/logo-winter.png";
+import Mail from "../images/envelope-icon-black.png";
+import mobile from "../images/mobile-black.png";
+import instagram from "../images/instagram-black.png";
+import Winter from "../images/logo-winter-black.png";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="social-links">
-        <img src={Mail} className="social-link" />
-        <img src={Phone} className="social-link" />
-        <img src={Instagram} className="social-link" />
-      </div>
       <div className="link-winter">
         <p className="link-winter-text">
           Take away and delivery in Val Thorens
         </p>
         <img src={Winter} className="winter-logo" />
+      </div>
+
+      <div className="right-footer">
+        <div className="page-links">
+          <AnchorLink to="/#new">
+            <div className="footer-nav-item">New</div>
+          </AnchorLink>
+          <AnchorLink to="/#contact">
+            <div className="footer-nav-item">Contact</div>
+          </AnchorLink>
+          <Link to="/restaurant">
+            <div className="footer-nav-item">Restaurant</div>
+          </Link>
+          <Link to="/snack">
+            <div className="footer-nav-item">Snack</div>
+          </Link>
+        </div>
+        <div className="social-links">
+          <a href="mailto:sarahmariem@hotmail.fr">
+            <img src={Mail} className="social-link" />
+          </a>
+          <a href="tel:0603456223">
+            <img src={mobile} className="social-link phone-link" />
+          </a>
+          <a href="https://instagram.com">
+            <img src={instagram} className="social-link" />
+          </a>
+        </div>
+
+        <div className="copyright">
+          <p>
+            Copyright Caribou 2021 Created by Rianne Streef - VTS web design
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -43,7 +43,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Concert One`, `Montserrat`, `source sans pro\:100,300,400`],
+        fonts: [
+          `Rochester`,
+          `Concert One`,
+          `Montserrat\:100, 500`,
+          `source sans pro\:100,300,400`,
+        ],
         display: "swap",
       },
     },

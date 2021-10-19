@@ -1,9 +1,66 @@
-.landing {
-  background-image: url("../images/landing.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 100vh;
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
 }
 
+.navbar {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  z-index: 1;
+  position:fixed;
+  top: 100px;
+}
+
+.nav-item {
+  margin: 10px 20px;
+  padding: 5px 10px;
+  color: #000;
+  background-color: transparent;
+  transition: all 500ms ease-in;
+  border-radius: 50px;
+  min-width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  transform: scaleY(1) ;
+  transition: transform 500ms ease-in;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.hide {
+  transform: scaleY(0) ;
+  transition: transform 500ms ease-in;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 40px;
+}
+
+.mobile-icon {
+  height: 30px;
+  margin: 10px;
+  z-index: 10;
+}
+
+.instagram-icon {
+  height: 30px;
+  margin: 10px;
+  z-index: 10;
+}
+
+.panorama {
+  width: 100%;
+}

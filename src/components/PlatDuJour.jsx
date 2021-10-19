@@ -3,11 +3,7 @@ import React from "react";
 import "../styles/PlatDuJour.css";
 
 const PlatDuJour = (props) => {
-  console.log(props);
   let { platDuJour, prix, description } = props;
-  console.log(PlatDuJour);
-  console.log(prix);
-  console.log(description);
 
   return (
     <div className="plat-du-jour-container">

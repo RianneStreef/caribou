@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 import Header from "../components/Header";
+import Landing from "../components/Landing";
+
 import Footer from "../components/Footer";
 
 import "../styles/global.css";
@@ -30,6 +32,8 @@ const Layout = ({ children }) => {
         setLanguage={setLanguage}
         languageToUse={languageToUse}
       />
+      <Landing />
+
       <section className="main">{childrenWithProps}</section>
 
       <Footer

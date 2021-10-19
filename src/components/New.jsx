@@ -8,10 +8,10 @@ import "../styles/New.css";
 const New = () => {
   return (
     <div className="new" id="new">
-      <h2 className="h2-color-inverse">New</h2>
+      <p className="new-title">New this year</p>
       <div className="new-items">
-        <Kotas />
         <Soirees />
+        <Kotas />
       </div>
     </div>
   );

@@ -1,16 +1,36 @@
-.welcome-container {
-  background-image: url("../images/wood-background-black.jpeg");
+.welcome {
+  padding-top: 50px;
+  background-image: url("../images/wood-background.jpeg");
   background-attachment: fixed;
-  background-size: contain;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--color-text-light);
+  z-index: 50;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.welcome-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--color-background);
   color: var(--color-text)
 }
 
 .welcome-text {
-  width: 80%;
+  width: 40%;
+}
+
+.intro-text {
+  text-align: justify;
+}
+
+.signature {
+  font-weight: bolder;
+  text-align: right;
 }

@@ -4,15 +4,14 @@ import "../styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div id="contact">
-      <h2>Contact</h2>
+    <div className="contact" id="contact">
       <section className="contact-page">
         <form
           className="contact-form"
           name="contact"
           method="post"
           data-netlify="true"
-          action="/succes"
+          action="/success"
         >
           <input
             className="contact-input"
@@ -57,6 +56,8 @@ const Contact = () => {
           </div>
         </form>
         <div className="contact-text ">
+          <h2>Contact</h2>
+
           <p>WE DONT TAKE RESERVATIONS VIA INTERNET</p>
           <p>
             Vous pouvez nous joindre pour les réservations et renseignements,
