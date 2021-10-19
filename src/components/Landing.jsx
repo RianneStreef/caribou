@@ -13,6 +13,10 @@ const Landing = () => {
   let [pathname, setPathname] = useState("");
 
   useEffect(() => {
+    setPathname(window.location.pathname);
+    console.log("pathname");
+    console.log(pathname);
+
     window.addEventListener("scroll", () => {
       if (typeof window !== "undefined") {
         var yTop = window.scrollY;
