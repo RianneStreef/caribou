@@ -1,6 +1,5 @@
 .landing-container {
   display: flex;
-
   justify-content: center;
   flex-direction: column;
 }
@@ -13,6 +12,15 @@
   color: white;
 }
 
+.snack-landing h1 {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.snack-landing .nav-item {
+  color: white;
+}
+
 .home-banner {
   background-image: url("../images/landing-cut-gradient.png");
   background-size: contain;
@@ -21,7 +29,7 @@
 }
 
 .restaurant-banner {
-  background-image: url("../images/restaurant-header.jpeg");
+  background-image: url("../images/restaurant-header.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
