@@ -9,14 +9,8 @@ import Fondue from "../images/fondue.jpeg";
 
 const Soirees = () => {
   return (
-    <div className="soirees new-feature">
-      <div className="feature-items">
-        <div className="feature-imgs">
-          <img src={Soiree} className="feature-img" />
-          <img src={Food} className="feature-img" />
-          <img src={Fondue} className="feature-img" />
-          <img src={FoodWine} className="feature-img" />
-        </div>
+    <div className="new-feature">
+      <div className="feature-items soirees">
         <div className="feature-description">
           <h2>Soirées</h2>
 
@@ -25,6 +19,12 @@ const Soirees = () => {
             Soirée savoyarde avec au choix fondue savoyarde, raclette ou
             tartiflette au choix. 30 euros / personnes, boissons en supplément.
           </p>
+        </div>
+        <div className="feature-imgs">
+          <img src={Soiree} className="feature-img" />
+          <img src={Food} className="feature-img hidden-mobile" />
+          <img src={Fondue} className="feature-img hidden-mobile" />
+          <img src={FoodWine} className="feature-img hidden-mobile" />
         </div>
       </div>
     </div>

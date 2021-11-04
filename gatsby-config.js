@@ -46,7 +46,7 @@ module.exports = {
         fonts: [
           `Rochester`,
           `Concert One`,
-          `Montserrat\:100, 500`,
+          `Montserrat\:100, 500,900`,
           `source sans pro\:100,300,400`,
         ],
         display: "swap",

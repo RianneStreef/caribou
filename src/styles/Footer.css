@@ -1,16 +1,30 @@
 .footer {
   background-color: var(--color-background);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: var(--color-text-dark);
   padding: 20px;
 }
 
-
-.footer > * {
-  width: 50%;
+.footer-background {
+  background-image: url("../images/wood-background-dark.jpeg");
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--color-text-light);
 }
+
+.footer-background a {
+  color: var(--color-text-light);
+}
+
+.footer-background a:visited {
+  color: var(--color-text-light);
+}
+
+
 
 .social-links {
   display: flex;
@@ -71,4 +85,13 @@
   justify-content: flex-end;
   font-size: 8px;
   margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+  .footer > * {
+    width: 50%;
+  }
 }

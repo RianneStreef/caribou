@@ -9,8 +9,8 @@ import Kota4 from "../images/kota4.jpeg";
 
 const Kotas = () => {
   return (
-    <div className="kotas new-feature">
-      <div className="feature-items">
+    <div className="new-feature">
+      <div className="feature-items kotas">
         <div className="feature-description">
           <h2>Kota</h2>
           <p>Deux Kotas finlandais</p>
@@ -26,9 +26,9 @@ const Kotas = () => {
         </div>
         <div className="feature-imgs">
           <img src={Kota} className="feature-img" />
-          <img src={Kota3} className="feature-img" />
-          <img src={Kota2} className="feature-img" />
-          <img src={Kota4} className="feature-img" />
+          <img src={Kota3} className="feature-img hidden-mobile" />
+          <img src={Kota2} className="feature-img hidden-mobile" />
+          <img src={Kota4} className="feature-img hidden-mobile" />
         </div>
       </div>{" "}
     </div>

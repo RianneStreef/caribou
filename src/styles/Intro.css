@@ -1,30 +1,22 @@
 .welcome {
   padding-top: 50px;
-  background-image: url("../images/wood-background.jpeg");
+  background-image: url("../images/wood-background-dark.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   color: var(--color-text-light);
   z-index: 50;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.welcome-container {
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: var(--color-text)
+  margin-top: 100px;
+  background-color: #000;
 }
 
-.welcome-text {
-  width: 40%;
-}
+
+
 
 .intro-text {
   text-align: justify;
@@ -33,4 +25,18 @@
 .signature {
   font-weight: bolder;
   text-align: right;
+}
+
+
+@media (min-width: 768px) {
+  .welcome {
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .welcome-text {
+  width: 40%;
+  }
+
+  
 }

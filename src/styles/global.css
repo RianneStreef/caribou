@@ -3,13 +3,14 @@
   --color-highlight: #fff; 
   --color-background: #ffffff;
   --color-text-light: #fff; 
-  --color-text-dark: rgb(55, 55, 55); 
+  --color-text-dark: #373737; 
 }
 
 body {
   padding: 0;
   margin: 0;
   background-color: var(--color-background);
+  
 }
 
 h2, h3, h4{
@@ -18,10 +19,8 @@ h2, h3, h4{
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 80px;
 }
-
-
 
 .h3-color-inverse {
   color: var(--color-background);
@@ -48,7 +47,8 @@ p {
   border: solid 3px var(--color-highlight);
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Concert One', cursive;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .button:hover {
@@ -57,18 +57,37 @@ p {
   transition: all 500ms ease-in;
 }
 
+.button-link {
+  margin: 10px 20px;
+  padding: 5px 10px;
+  color: var(--color-text-light);
+  background-color: var(--color-text-dark);
+  transition: all 500ms ease-in;
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 a {
   text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-text-dark);
 }
 
 .layout {
   display: flex;
   flex-direction: column;
   height: 100%;
+  flex-grow: 1;
 }
 
 .menu-placeholder {
-  height: 116px;
+  height: 100px;
 }
 
 .main {
@@ -77,5 +96,25 @@ a {
   flex-grow: 1;
   height: 100%;
 }
+
+.hidden-menu-mobile {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .hidden-menu-mobile {
+    display: flex;
+  }
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+
 
 

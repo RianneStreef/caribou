@@ -1,0 +1,61 @@
+.restaurant-container {
+  margin: 100px 0;
+}
+
+.rest-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+}
+
+.rest-2{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+}
+
+.rest-background-img {
+  height: 50vh;
+  background-image: url("../images/Panorama.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+}
+
+.rest-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest-img {
+  width: 80%;
+  margin: 30px;
+}
+
+.rest-text {
+  padding: 30px;
+  display: flex;
+}
+.rest-text-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+  
+  .rest-1 {
+    flex-direction: row;
+  }
+  
+  .rest-2{
+    flex-direction: row-reverse;
+  }
+  .rest-text-container {
+    flex-direction: column;
+  }
+}
+
+

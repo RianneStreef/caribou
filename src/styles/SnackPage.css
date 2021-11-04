@@ -1,0 +1,67 @@
+.snack-container {
+  padding: 100px 0;
+  background-image: url("../images/wood-background-dark.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.snack-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+}
+
+.snack-2{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+}
+
+.snack-background-img {
+  height: 50vh;
+  background-image: url("../images/Panorama.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+}
+
+.snack-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snack-img {
+  width: 80%;
+  margin: 30px;
+}
+
+.snack-text {
+  padding: 30px;
+  display: flex;
+}
+.snack-text-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+  
+  .snack-1 {
+    flex-direction: row;
+  }
+  
+  .snack-2{
+    flex-direction: row-reverse;
+  }
+  .snack-text-container {
+    flex-direction: column;
+  }
+}
+
+

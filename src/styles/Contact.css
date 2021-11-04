@@ -1,26 +1,22 @@
 .contact {
   padding-top: 50px;
-  background-image: url("../images/wood-background.jpeg");
+  background-image: url("../images/wood-background-dark.jpeg");
   background-attachment: fixed;
   background-size: contain;
   color: #fff;
   z-index: 50;
-  /* position: relative; */
+  background-color: #000;
 }
 
 .contact-page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: var(--color-text)
 }
 
-.contact-page > * {
-  width: 50%;
-  padding: 20px 60px;
 
-}
 
 input {
   border: none;
@@ -38,7 +34,7 @@ textarea {
   color: var(--color-text);
 }
 
-.contact-button-container {
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,4 +44,15 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+  .contact-page {
+    flex-direction: row-reverse;
+  }
+  .contact-page > * {
+    width: 50%;
+    padding: 20px 60px;
+  }
 }

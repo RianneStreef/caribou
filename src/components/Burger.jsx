@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import Navbar from "../components/Navbar";
 
 const StyledBurger = styled.div`
   display: flex;
@@ -8,12 +9,12 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   margin: 10px;
-  z-index: 20;
+  z-index: 200;
 
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "#000" : "#000")};
+    background-color: ${({ open }) => (open ? "#fff" : "#373737")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -32,22 +33,18 @@ const StyledBurger = styled.div`
   }
 `;
 
-const Burger = (props) => {
-  let { language, setLanguage, languageToUse } = props;
-
+const Burger = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <StyledBurger
-      open={open}
-      language={language}
-      setLanguage={setLanguage}
-      onClick={() => setOpen(!open)}
-    >
-      <div />
-      <div />
-      <div />
-    </StyledBurger>
+    <>
+      <Navbar open={open} setOpen={setOpen} />
+      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+    </>
   );
 };
 

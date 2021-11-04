@@ -28,6 +28,7 @@ const Header = () => {
       <div className="header" id="header">
         <div className="nav-items">
           <a href="tel:0603456223">
+            {" "}
             <img src={mobile} className="mobile-icon" />
           </a>
           <a href="https://instagram.com">
@@ -35,11 +36,6 @@ const Header = () => {
           </a>
           <Burger />
         </div>
-      </div>
-      <div className="title">
-        <Link to="/">
-          <h1>Chalet le Caribou</h1>
-        </Link>
       </div>
     </>
   );

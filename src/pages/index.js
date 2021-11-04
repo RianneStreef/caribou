@@ -17,7 +17,7 @@ const IndexPage = (props) => {
     <div>
       <Intro platDuJour={platDuJour} prix={prix} description={description} />
       <New />
-      <img src={ViewImage} className="view-image" />
+      {/* <img src={ViewImage} className="view-image" /> */}
 
       <Contact />
     </div>
