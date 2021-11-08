@@ -10,7 +10,10 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--color-background);
-  
+  background-image: url("../images/wood-background-dark.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
 h2, h3, h4{
@@ -39,12 +42,12 @@ p {
 .button {
   margin: 10px 20px;
   padding: 5px 10px;
-  color: var(--color-highlight);
-  background-color: transparent;
+  color: var(--color-text-dark);
+  background-color: var(--color-text-light);
   transition: all 500ms ease-in;
   border-radius: 50px;
   min-width: 100px;
-  border: solid 3px var(--color-highlight);
+  border: solid 3px var(--color-text-dark);
   text-align: center;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -60,22 +63,28 @@ p {
 .button-link {
   margin: 10px 20px;
   padding: 5px 10px;
-  color: var(--color-text-light);
-  background-color: var(--color-text-dark);
+  color: var(--color-text-dark);
+  background-color: var(--color-text-light);
   transition: all 500ms ease-in;
   border-radius: 50px;
   width: 100px;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+  border: solid 3px var(--color-text-dark);
 
 }
 
 a {
   text-decoration: none;
+  color: var(--color-text-dark);
 }
 
 a:visited {
+  color: var(--color-text-dark);
+}
+
+a:active {
   color: var(--color-text-dark);
 }
 
@@ -97,6 +106,10 @@ a:visited {
   height: 100%;
 }
 
+.hidden-mobile {
+  display: none;
+}
+
 .hidden-menu-mobile {
   display: none;
 }
@@ -107,6 +120,10 @@ a:visited {
 
 
 @media (min-width: 768px) {
+  .hidden-mobile {
+    display: block;
+  }
+
   .hidden-menu-mobile {
     display: flex;
   }

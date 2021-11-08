@@ -1,11 +1,9 @@
 .snack-container {
-  padding: 100px 0;
-  background-image: url("../images/wood-background-dark.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  margin: 100px 30px;
   color: white;
+  background-image: url("../images/wood-background-dark.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .snack-1 {

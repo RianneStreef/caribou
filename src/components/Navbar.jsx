@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 import "../styles/Navbar.css";
 
+import { content } from "../content/languages";
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -58,18 +60,24 @@ const Ul = styled.ul`
 const Navbar = (props) => {
   let { open, setOpen } = props;
 
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
   return (
     <div className="nav-bar">
       <Ul open={open}>
         <li>
           <Link to="/" className="nav-link" onClick={() => setOpen(!open)}>
-            Home
+            {languageToUse.home}
           </Link>
         </li>
 
         <li>
           <Link to="/#new" className="nav-link" onClick={() => setOpen(!open)}>
-            New
+            {languageToUse.new}
           </Link>
         </li>
 
@@ -79,7 +87,7 @@ const Navbar = (props) => {
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
-            Contact
+            {languageToUse.contact}
           </Link>
         </li>
 
@@ -89,13 +97,13 @@ const Navbar = (props) => {
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
-            Restaurant
+            {languageToUse.restaurant}
           </Link>
         </li>
 
         <li>
           <Link to="/snack" className="nav-link" onClick={() => setOpen(!open)}>
-            Snack
+            {languageToUse.snack}
           </Link>
         </li>
       </Ul>

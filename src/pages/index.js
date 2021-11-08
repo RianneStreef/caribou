@@ -6,20 +6,33 @@ import Intro from "../components/Intro";
 import New from "../components/New";
 import Contact from "../components/Contact";
 
-import ViewImage from "../images/landing.jpg";
+import { content } from "../content/languages";
 
 import "../styles/IndexPage.css";
 
 const IndexPage = (props) => {
-  let { platDuJour, prix, description } =
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
+  let { platDuJour, prix, description, descriptionEn } =
     props.data.allContentfulPlatDuJour.nodes[0];
+
   return (
     <div>
-      <Intro platDuJour={platDuJour} prix={prix} description={description} />
-      <New />
-      {/* <img src={ViewImage} className="view-image" /> */}
+      <Intro
+        platDuJour={platDuJour}
+        prix={prix}
+        description={description}
+        descriptionEn={descriptionEn}
+        language={language}
+        languageToUse={languageToUse}
+      />
+      <New language={language} languageToUse={languageToUse} />
 
-      <Contact />
+      <Contact language={language} languageToUse={languageToUse} />
     </div>
   );
 };
@@ -31,6 +44,7 @@ export const platDuJourQuery = graphql`
         platDuJour
         prix
         description
+        descriptionEn
       }
     }
   }

@@ -1,5 +1,9 @@
 .restaurant-container {
-  margin: 100px 0;
+  margin: 100px 30px;
+  padding: 100px 0;
+  background-image: url("../images/wood-background-dark.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .rest-1 {

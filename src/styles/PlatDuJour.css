@@ -1,10 +1,11 @@
 .plat-du-jour-container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(196, 196, 196);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-right: 20px;
+  position: relative;
+
 }
+
 
 .plat-du-jour {
   border-left: none;
@@ -21,3 +22,29 @@
   margin: 10px;
 }
 
+.top, .bottom {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.top {
+  top: 0;
+  border-top: 1px solid #fff;
+}
+
+.bottom {
+  bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.left {
+  left: 0;
+  border-left: 1px solid #fff;
+}
+
+.right {
+  right: 0;
+  border-right: 1px solid #fff;
+}

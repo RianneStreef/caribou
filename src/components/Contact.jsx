@@ -1,19 +1,22 @@
 import React from "react";
 
 import "../styles/Contact.css";
+import { content } from "../content/languages";
 
-const Contact = () => {
+const Contact = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
     <div className="contact" id="contact">
       <section className="contact-page">
         <div className="contact-text ">
-          <h2>Contact</h2>
+          <h2>{languageToUse.contact}</h2>
 
-          <p>WE DONT TAKE RESERVATIONS VIA INTERNET</p>
-          <p>
-            Vous pouvez nous joindre pour les réservations et renseignements,
-            par téléphone au 06 03 45 62 23.
-          </p>
+          <p>{languageToUse.contact2}</p>
+          <p>{languageToUse.contact3}</p>
         </div>
         <form
           className="contact-form"
@@ -29,13 +32,13 @@ const Contact = () => {
             name="contact"
             value="contact"
           />
-          <p class="hidden">
+          <p className="hidden">
             <label>
               Don’t fill this out if you’re human: <input name="bot-field" />
             </label>
           </p>
           <p className="form-items">
-            <label htmlFor="name">Name:</label> <br />
+            <label htmlFor="name">{languageToUse.name}</label> <br />
             <input
               className="contact-input"
               type="text"
@@ -45,7 +48,8 @@ const Contact = () => {
             />
           </p>
           <p className="form-items">
-            <label htmlFor="email">Email:</label> <br />
+            <label htmlFor="email">{languageToUse.email} </label>
+            <br />
             <input
               className="contact-input"
               type="email"
@@ -55,7 +59,7 @@ const Contact = () => {
             />
           </p>
           <p className="form-items">
-            <label htmlFor="message">Message:</label> <br />
+            <label htmlFor="message">{languageToUse.message}</label> <br />
             <textarea
               className="contact-input"
               id="message"
@@ -66,7 +70,7 @@ const Contact = () => {
           </p>
           <div className="button-container">
             <button className="button" type="submit" value="Submit message">
-              Send{" "}
+              {languageToUse.send}
             </button>
           </div>
         </form>

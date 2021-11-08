@@ -2,23 +2,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: white;
+  background-color: rgb(255, 255, 255);
 }
 
-.snack-landing {
-  background-image: url("../images//wood-background-dark.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-}
-
-.snack-landing h1 {
-  color: white;
-  border-bottom: 1px solid white;
-}
-
-.snack-landing .nav-item {
-  color: white;
+ h1 {
+  color:#000;
+  border-bottom: 1px solid #000;
 }
 
 .home-banner {
@@ -26,6 +16,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
 }
 
 .restaurant-banner {
@@ -45,7 +36,7 @@
 .nav {
   list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   margin: 0;
@@ -103,7 +94,6 @@
 }
 
 .panorama {
-  width: 100%;
   height: 20vh;
 }
 

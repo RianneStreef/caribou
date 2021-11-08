@@ -8,23 +8,9 @@
   padding: 20px;
 }
 
-.footer-background {
-  background-image: url("../images/wood-background-dark.jpeg");
-  background-size: cover ;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: var(--color-text-light);
+.footer-banner {
+  margin: 30px;
 }
-
-.footer-background a {
-  color: var(--color-text-light);
-}
-
-.footer-background a:visited {
-  color: var(--color-text-light);
-}
-
-
 
 .social-links {
   display: flex;

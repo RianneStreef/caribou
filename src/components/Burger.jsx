@@ -37,14 +37,14 @@ const Burger = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
+    <div className="hidden-desktop">
       <Navbar open={open} setOpen={setOpen} />
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
-    </>
+    </div>
   );
 };
 
