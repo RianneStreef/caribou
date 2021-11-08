@@ -46,26 +46,36 @@ const Header = (props) => {
 
   return (
     <>
-      <div className="header" id="header">
-        <img scr={logoBlack} className="logo" />
-        <nav className="navbar hidden-menu-mobile">
-          <ul className="nav">
-            <AnchorLink to="/#new">
-              <li className="nav-item">{languageToUse.new}</li>
-            </AnchorLink>
-            <AnchorLink to="/#contact">
-              <li className="nav-item"> {languageToUse.contact}</li>
-            </AnchorLink>
+      <nav className="header" id="header">
+        <Link to="/">
+          <img src={logoBlack} className="header-logo" />
+        </Link>
+        <ul className="nav">
+          <li className="nav-item hidden-mobile">
+            <AnchorLink to="/#new">{languageToUse.new}</AnchorLink>
+          </li>
+          <li className="nav-item hidden-mobile">
+            <AnchorLink to="/#contact">{languageToUse.contact}</AnchorLink>
+          </li>
+          <li className="nav-item hidden-mobile">
+            <Link to="/restaurant">{languageToUse.restaurant}</Link>
+          </li>
+          <li className="nav-item hidden-mobile">
+            <Link to="/snack">{languageToUse.snack}</Link>
+          </li>
+        </ul>
 
-            <Link to="/restaurant">
-              <li className="nav-item"> {languageToUse.restaurant}</li>
-            </Link>
-            <Link to="/snack">
-              <li className="nav-item"> {languageToUse.snack}</li>
-            </Link>
-          </ul>
-        </nav>
-        <div className="nav-items">
+        <a href="tel:0603456223">
+          {" "}
+          <img src={mobile} className="mobile-icon" />
+        </a>
+        <a href="https://instagram.com">
+          <img src={instagram} className="instagram-icon" />
+        </a>
+        <a href="https://facebook.com">
+          <img src={facebook} className="instagram-icon" />
+        </a>
+        <div className="nav-item hidden-mobile">
           {language === "english" ? (
             <img
               className="language-icon"
@@ -81,19 +91,11 @@ const Header = (props) => {
               alt="Set language to English"
             />
           )}
-          <a href="tel:0603456223">
-            {" "}
-            <img src={mobile} className="mobile-icon" />
-          </a>
-          <a href="https://instagram.com">
-            <img src={instagram} className="instagram-icon" />
-          </a>
-          <a href="https://facebook.com">
-            <img src={facebook} className="instagram-icon" />
-          </a>
-          <Burger />
         </div>
-      </div>
+        <li>
+          <Burger />
+        </li>
+      </nav>
     </>
   );
 };

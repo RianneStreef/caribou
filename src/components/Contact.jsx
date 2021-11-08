@@ -13,8 +13,6 @@ const Contact = (props) => {
     <div className="contact" id="contact">
       <section className="contact-page">
         <div className="contact-text ">
-          <h2>{languageToUse.contact}</h2>
-
           <p>{languageToUse.contact2}</p>
           <p>{languageToUse.contact3}</p>
         </div>

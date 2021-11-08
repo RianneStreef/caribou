@@ -4,8 +4,6 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../styles/Footer.css";
 
-import footerBanner from "../images/footer-banner.jpg";
-
 import Mail from "../images/envelope-icon-black.png";
 import mobile from "../images/mobile-black.png";
 import instagram from "../images/instagram-black.png";
@@ -28,7 +26,6 @@ const Footer = (props) => {
 
   return (
     <>
-      <img src={footerBanner} className="footer-banner" />
       <div className="footer">
         <div className="link-winter">
           <p className="link-winter-text">{languageToUse.winterCafe}</p>
@@ -66,7 +63,7 @@ const Footer = (props) => {
           </div>
 
           <div className="copyright">
-            <p>
+            <p className="copyright-text">
               {languageToUse.copyright}{" "}
               <a href="https://www.vts-webdesign.com" target="blank">
                 - VTS web design

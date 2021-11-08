@@ -32,11 +32,22 @@ h2 {
 p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  line-height: 30px;
+  line-height: 35px;
+  font-size: 17px;
 }
 
 .padding {
   padding: 20px 50px;
+}
+
+.barre {
+  margin-top: -20px;
+  width: 100vw;
+}
+
+.barre-top {
+  margin-top: -20px;
+  width: 100vw;
 }
 
 .button {
@@ -97,6 +108,29 @@ a:active {
 
 .menu-placeholder {
   height: 100px;
+} 
+
+.banner-middle {
+  background-image: url("../images/kotas-banner.jpg");
+}
+
+
+.banner-bottom {
+  background-image: url("../images/footer-banner.jpg");
+}
+
+
+.banner {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rochester', cursive;
+  font-size: 100px;
 }
 
 .main {

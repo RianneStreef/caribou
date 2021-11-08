@@ -12,7 +12,7 @@
 }
 
 .home-banner {
-  background-image: url("../images/landing-cut-gradient.png");
+  background-image: url("../images/landing.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,15 +93,21 @@
   z-index: 10;
 }
 
+.main-logo {
+  height: 50%;
+}
+
 .panorama {
-  height: 20vh;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
   .landing {
     display: flex;
     flex-direction: row;
-    height: calc(50vh - 100px);
   }
 
   .home-banner {
@@ -115,7 +121,7 @@
   }
 
   .panorama {
-    height: 50vh;
+    height: calc(100vh - 100px);
   }
 
   .landing-container {

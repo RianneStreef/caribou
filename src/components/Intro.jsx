@@ -14,19 +14,21 @@ const Intro = (props) => {
     : (languageToUse = content.french);
 
   return (
-    <div className="welcome">
-      <div className="welcome-text">
-        <p className="padding intro-text">{languageToUse.intro}</p>
+    <>
+      <div className="welcome">
+        <div className="welcome-text">
+          <p className="padding intro-text">{languageToUse.intro}</p>
+        </div>
+        <PlatDuJour
+          language={language}
+          languageToUse={languageToUse}
+          platDuJour={platDuJour}
+          prix={prix}
+          description={description}
+          descriptionEn={descriptionEn}
+        />
       </div>
-      <PlatDuJour
-        language={language}
-        languageToUse={languageToUse}
-        platDuJour={platDuJour}
-        prix={prix}
-        description={description}
-        descriptionEn={descriptionEn}
-      />
-    </div>
+    </>
   );
 };
 
