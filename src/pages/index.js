@@ -10,6 +10,8 @@ import { content } from "../content/languages";
 
 import "../styles/IndexPage.css";
 
+import barre from "../images/barre-white.png";
+
 const IndexPage = (props) => {
   let { language, languageToUse } = props;
 
@@ -22,6 +24,7 @@ const IndexPage = (props) => {
 
   return (
     <div>
+      <img src={barre} className="barre" />
       <Intro
         platDuJour={platDuJour}
         prix={prix}
@@ -30,8 +33,15 @@ const IndexPage = (props) => {
         language={language}
         languageToUse={languageToUse}
       />
+      <img src={barre} className="barre-top" />
+      <div className="banner banner-middle">New!</div>
+      <img src={barre} className="barre" />
       <New language={language} languageToUse={languageToUse} />
-
+      <img src={barre} className="barre-top" />{" "}
+      <div className="banner banner-bottom">
+        <h2>{languageToUse.contact}</h2>
+      </div>
+      <img src={barre} className="barre" />
       <Contact language={language} languageToUse={languageToUse} />
     </div>
   );
