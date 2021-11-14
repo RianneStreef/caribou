@@ -7,7 +7,7 @@ import { content } from "../content/languages";
 
 const Intro = (props) => {
   let { language, languageToUse } = props;
-  let { platDuJour, prix, description, descriptionEn } = props;
+  let { platDuJour, prix, description, descriptionEn, date } = props;
 
   language === "english"
     ? (languageToUse = content.english)
@@ -17,6 +17,7 @@ const Intro = (props) => {
     <>
       <div className="welcome">
         <div className="welcome-text">
+          <h2>{languageToUse.welcomeTitle}</h2>
           <p className="padding intro-text">{languageToUse.intro}</p>
         </div>
         <PlatDuJour
@@ -24,6 +25,7 @@ const Intro = (props) => {
           languageToUse={languageToUse}
           platDuJour={platDuJour}
           prix={prix}
+          date={date}
           description={description}
           descriptionEn={descriptionEn}
         />

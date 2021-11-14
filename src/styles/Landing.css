@@ -13,7 +13,7 @@
 
 .home-banner {
   background-image: url("../images/landing.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
@@ -53,21 +53,7 @@
   top: 100px;
 }
 
-.nav-item {
-  margin: 10px 20px;
-  padding: 5px 10px;
-  color: #000;
-  background-color: transparent;
-  transition: all 500ms ease-in;
-  border-radius: 50px;
-  min-width: 100px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  transform: scaleY(1) ;
-  transition: transform 500ms ease-in;
-  font-size: large;
-}
+
 
 .hide {
   transform: scaleY(0) ;
@@ -110,9 +96,6 @@
     flex-direction: row;
   }
 
-  .home-banner {
-    background-size: cover;
-  }
   .restaurant-banner {
     background-size: cover;
   }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
@@ -18,18 +18,13 @@ const Footer = (props) => {
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
-  let [pathname, setPathname] = useState("");
-
-  useEffect(() => {
-    setPathname(window.location.pathname);
-  });
 
   return (
     <>
       <div className="footer">
         <div className="link-winter">
           <p className="link-winter-text">{languageToUse.winterCafe}</p>
-          <img src={Winter} className="winter-logo" />
+          <img src={Winter} className="winter-logo" alt="Winter Cafe Logo" />
         </div>
 
         <div className="right-footer">
@@ -49,16 +44,24 @@ const Footer = (props) => {
           </div>
           <div className="social-links">
             <a href="mailto:sarahmariem@hotmail.fr">
-              <img src={Mail} className="social-link" />
+              <img src={Mail} className="social-link" alt="mail icon" />
             </a>
             <a href="tel:0603456223">
-              <img src={mobile} className="social-link phone-link" />
+              <img
+                src={mobile}
+                className="social-link phone-link"
+                alt="telephone icon"
+              />
             </a>
             <a href="https://instagram.com">
-              <img src={instagram} className="social-link" />
+              <img
+                src={instagram}
+                className="social-link"
+                alt="instagram icon"
+              />
             </a>
             <a href="https://facebook.com">
-              <img src={facebook} className="social-link" />
+              <img src={facebook} className="social-link" alt="facebook icon" />
             </a>
           </div>
 

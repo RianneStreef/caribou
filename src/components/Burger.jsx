@@ -9,15 +9,16 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   margin: 10px;
-  z-index: 200;
+  z-index: 999;
 
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "#fff" : "#373737")};
+    background-color: ${({ open }) => (open ? "#ffffff" : "#373737")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
+    z-index: 999;
     &:nth-child(1) {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
     }
