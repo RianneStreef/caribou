@@ -1,7 +1,6 @@
 import React from "react";
 
 import restImg1 from "../images/rest-img-1.jpeg";
-import restImg2 from "../images/rest-img-2.jpeg";
 
 import menu from "../../menu.pdf";
 
@@ -25,7 +24,11 @@ const Restaurant = (props) => {
       <div className="restaurant-container">
         <div className="rest-1">
           <div className="rest-image-container">
-            <img src={restImg1} className="rest-img" />
+            <img
+              src={restImg1}
+              className="rest-img"
+              alt="Restaurant du Caribou"
+            />
           </div>
           <div className="rest-text-container">
             <p className="rest-text">{languageToUse.restText1}</p>
@@ -43,7 +46,7 @@ const Restaurant = (props) => {
         {/* <div className="rest-background-img hidden-mobile" />
       <div className="rest-2">
         <div className="rest-image-container">
-          <img src={restImg2} className="rest-img" />
+          <img src={restImg2} className="rest-img" alt="Restaurant du Caribou" />
         </div>
         <p className="rest-text">{languageToUse.restText2}</p>
       </div> */}

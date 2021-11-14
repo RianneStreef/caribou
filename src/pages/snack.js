@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import "../styles/SnackPage.css";
 
 import snackImg1 from "../images/rest-img-1.jpeg";
-import snackImg2 from "../images/rest-img-2.jpeg";
 
 import menu from "../../menu.pdf";
 
@@ -20,7 +19,7 @@ const SnackPage = () => {
       <div className="snack-container">
         <div className="snack-1">
           <div className="snack-image-container">
-            <img src={snackImg1} className="snack-img" />
+            <img src={snackImg1} className="snack-img" alt="Snack du Caribou" />
           </div>
           <div className="snack-text-container">
             <p className="snack-text">
@@ -49,7 +48,7 @@ const SnackPage = () => {
 
       <div className="snack-2">
         <div className="snack-image-container">
-          <img src={snackImg2} className="snack-img" />
+          <img src={snackImg2} className="snack-img" alt="Snack du Caribou" />
         </div>
         <p className="snack-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet

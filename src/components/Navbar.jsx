@@ -4,6 +4,12 @@ import styled from "styled-components";
 
 import "../styles/Navbar.css";
 
+import instagram from "../images/instagram-icon.png";
+import facebook from "../images/facebook.png";
+
+import flagEn from "../images/icon-en.png";
+import flagFr from "../images/icon-fr.png";
+
 import { content } from "../content/languages";
 
 const Ul = styled.ul`
@@ -60,11 +66,16 @@ const Ul = styled.ul`
 const Navbar = (props) => {
   let { open, setOpen } = props;
 
-  let { language, languageToUse } = props;
+  let { language, setLanguage, languageToUse } = props;
 
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
+
+  function handleSetLanguage(language) {
+    setLanguage(language);
+    localStorage.setItem("languageInStorage", language);
+  }
 
   return (
     <div className="nav-bar">
@@ -105,6 +116,39 @@ const Navbar = (props) => {
           <Link to="/snack" className="nav-link" onClick={() => setOpen(!open)}>
             {languageToUse.snack}
           </Link>
+        </li>
+        <li className="social-links-header">
+          <a href="https://instagram.com">
+            <img
+              src={instagram}
+              className="instagram-icon "
+              alt="instagram icon"
+            />
+          </a>
+          <a href="https://facebook.com">
+            <img
+              src={facebook}
+              className="instagram-icon "
+              alt="facebook icon"
+            />
+          </a>
+          <div className="nav-item-language">
+            {language === "english" ? (
+              <img
+                className="language-icon"
+                src={flagFr}
+                onClick={() => handleSetLanguage("french")}
+                alt="Set language to French"
+              />
+            ) : (
+              <img
+                className="language-icon"
+                src={flagEn}
+                onClick={() => handleSetLanguage("english")}
+                alt="Set language to English"
+              />
+            )}
+          </div>
         </li>
       </Ul>
     </div>

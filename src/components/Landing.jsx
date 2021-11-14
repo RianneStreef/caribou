@@ -17,7 +17,7 @@ const Landing = (props) => {
 
   useEffect(() => {
     setPathname(window.location.pathname);
-  });
+  }, []);
 
   return (
     <>
@@ -25,7 +25,11 @@ const Landing = (props) => {
         <div className="menu-placeholder" />
         {pathname === "/" ? (
           <div className="panorama home-banner">
-            <img src={logoWhite} className="main-logo" />
+            <img
+              src={logoWhite}
+              className="main-logo"
+              alt="Logo Chalet du Caribou"
+            />
           </div>
         ) : null}
         {pathname === "/restaurant" ? (

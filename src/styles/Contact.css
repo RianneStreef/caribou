@@ -16,6 +16,9 @@
   color: var(--color-text)
 }
 
+.contact-form {
+  width: 100%;
+}
 
 
 input {
