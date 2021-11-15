@@ -38,21 +38,18 @@ const Landing = (props) => {
         {pathname === "/snack" ? (
           <div className="panorama snack-banner" />
         ) : null}
-        <div
-          className={`landing ${
-            pathname === "/snack" ? "snack-landing" : null
-          }`}
-        >
-          <div className="title">
-            <Link to="/">
-              {pathname === "/" ? null : null}
-              {pathname === "/restaurant" ? (
-                <h2 className="hidden-desktop">{languageToUse.restaurant}</h2>
-              ) : null}
-              {pathname === "/snack" ? (
-                <h2 className="hidden-desktop">{languageToUse.snack}</h2>
-              ) : null}
-            </Link>
+
+        <div>
+          <div>
+            {pathname === "/" ? null : null}
+            {pathname === "/restaurant" ? (
+              <h2 className="hidden-desktop title">
+                {languageToUse.restaurant}
+              </h2>
+            ) : null}
+            {pathname === "/snack" ? (
+              <h2 className="hidden-desktop title">{languageToUse.snack}</h2>
+            ) : null}
           </div>
         </div>
       </div>

@@ -53,7 +53,9 @@
   top: 100px;
 }
 
-
+.title {
+  color: var(--color-text-dark);
+}
 
 .hide {
   transform: scaleY(0) ;
@@ -98,12 +100,16 @@
 
   .restaurant-banner {
     background-size: cover;
+    height: 50vh;
+
   }
   .snack-banner {
     background-size: cover;
+    height: 50vh;
+
   }
 
-  .panorama {
+  .home-banner {
     height: calc(100vh - 100px);
   }
 

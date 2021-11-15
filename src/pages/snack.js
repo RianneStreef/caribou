@@ -7,10 +7,13 @@ import "../styles/SnackPage.css";
 import snackImg1 from "../images/rest-img-1.jpeg";
 
 import menu from "../../menu.pdf";
+import barre from "../images/barre-white.png";
 
 const SnackPage = () => {
   return (
     <>
+      <img src={barre} className="barre" alt="" />
+
       <div className="button-container hidden-desktop">
         <a href={menu} target="blank" className=" button-link hidden-desktop">
           Menu PDF

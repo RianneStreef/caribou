@@ -12,6 +12,10 @@
   margin: 30px;
 }
 
+.footer-barre {
+  margin-bottom: -7px;
+}
+
 .social-links {
   display: flex;
   justify-content: flex-end;
@@ -84,4 +88,9 @@
   .footer > * {
     width: 50%;
   }
+
+  .footer-barre {
+    margin-bottom: -25px;
+  }
+  
 }
