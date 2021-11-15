@@ -42,6 +42,7 @@ const Landing = (props) => {
 
         <div>
           <div>
+            {/* WHY IS THIS NOT WORKING?!  */}
             {pathname === "/" ? null : null}
             {pathname === "/restaurant" ? (
               <h2 className="hidden-desktop title">
