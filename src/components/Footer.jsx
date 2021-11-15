@@ -11,6 +11,7 @@ import facebook from "../images/facebook-black.png";
 import Winter from "../images/logo-winter-black.png";
 
 import { content } from "../content/languages";
+import barre from "../images/barre-white.png";
 
 const Footer = (props) => {
   let { language, languageToUse } = props;
@@ -21,6 +22,8 @@ const Footer = (props) => {
 
   return (
     <>
+      <img src={barre} className="footer-barre" alt="" />
+
       <div className="footer">
         <div className="link-winter">
           <p className="link-winter-text">{languageToUse.winterCafe}</p>

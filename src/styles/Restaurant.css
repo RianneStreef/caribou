@@ -1,6 +1,5 @@
 .restaurant-container {
   margin: 100px 30px;
-  padding: 100px 0;
   background-image: url("../images/wood-background-dark.jpeg");
   background-attachment: fixed;
   background-size: cover;
@@ -8,7 +7,7 @@
 
 .rest-1 {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column ;
   margin-bottom: 50px;
 }
 
@@ -28,10 +27,13 @@
   padding: 0;
 }
 
-.rest-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.rest-image-1-container {
+  background-image: url("../images/food.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vh;
 }
 
 .rest-img {
@@ -49,14 +51,7 @@
 }
 
 @media (min-width: 768px) {
-  
-  .rest-1 {
-    flex-direction: row;
-  }
-  
-  .rest-2{
-    flex-direction: row-reverse;
-  }
+
   .rest-text-container {
     flex-direction: column;
   }
