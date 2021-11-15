@@ -21,9 +21,6 @@ const SnackPage = () => {
       </div>
       <div className="snack-container">
         <div className="snack-1">
-          <div className="snack-image-container">
-            <img src={snackImg1} className="snack-img" alt="Snack du Caribou" />
-          </div>
           <div className="snack-text-container">
             <p className="snack-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -65,6 +62,10 @@ const SnackPage = () => {
         </p>
       </div> */}
       </div>
+      <img src={barre} className="footer-barre" alt="" />
+
+      <div className="rest-image-1-container" />
+      <img src={barre} className="footer-barre" alt="" />
     </>
   );
 };

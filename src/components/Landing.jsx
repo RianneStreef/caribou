@@ -17,6 +17,7 @@ const Landing = (props) => {
 
   useEffect(() => {
     setPathname(window.location.pathname);
+    console.log(pathname);
   }, []);
 
   return (

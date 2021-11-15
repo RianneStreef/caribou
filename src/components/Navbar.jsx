@@ -35,6 +35,10 @@ const Ul = styled.ul`
     color: #fff;
     padding-right: 25px;
     margin: 10px 0;
+    font-family: "Rochester", cursive;
+    text-transform: capitalize;
+    font-size: 35px;
+
     a {
       color: #fff;
       transition: color 500ms ease-in;

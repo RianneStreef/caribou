@@ -21,14 +21,14 @@
 
 .restaurant-banner {
   background-image: url("../images/restaurant-header.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .snack-banner {
   background-image: url("../images//snack-header.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -86,7 +86,7 @@
 }
 
 .panorama {
-  height: 50vh;
+  height: 30vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;

@@ -48,7 +48,10 @@ const RestaurantPage = (props) => {
     <p className="rest-text">{languageToUse.restText2}</p>
   </div> */}
       </div>
+      <img src={barre} className="footer-barre" alt="" />
+
       <div className="rest-image-1-container" />
+      <img src={barre} className="footer-barre" alt="" />
     </>
   );
 };
