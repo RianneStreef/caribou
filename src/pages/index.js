@@ -7,6 +7,7 @@ import New from "../components/New";
 import Contact from "../components/Contact";
 
 import { content } from "../content/languages";
+import { Helmet } from "react-helmet";
 
 import "../styles/IndexPage.css";
 
@@ -26,6 +27,19 @@ const IndexPage = (props) => {
 
   return (
     <div>
+      <Helmet>
+        <title>Chalet du Caribou</title>
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Chalet d'altitude sur les pistes de Val Thorens, dans les 3 Vallées"
+        />
+        <meta
+          name="keywords"
+          content="restaurant, Val Thorens, 3 Vallées, snack, pistes, chalet, panoramic"
+        />
+        <link rel="canonical" href="https://www.chalet-du-caribou.com/" />
+      </Helmet>
       <img src={barre} className="barre" alt="" />
       <Intro
         platDuJour={platDuJour}

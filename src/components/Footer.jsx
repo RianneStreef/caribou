@@ -71,6 +71,7 @@ const Footer = (props) => {
               <a href="https://www.vts-webdesign.com" target="blank">
                 - VTS web design
               </a>
+              <Link to="/legal">- {languageToUse.legal}</Link>
             </p>
           </div>
         </div>

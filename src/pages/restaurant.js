@@ -7,6 +7,7 @@ import barre from "../images/barre-white.png";
 import restImg1 from "../images/rest-img-1.jpeg";
 import menu from "../../menu.pdf";
 import { content } from "../content/languages";
+import { Helmet } from "react-helmet";
 
 import "../styles/Restaurant.css";
 
@@ -18,6 +19,22 @@ const RestaurantPage = (props) => {
     : (languageToUse = content.french);
   return (
     <>
+      <Helmet>
+        <title>Chalet du Caribou - Restaurant</title>
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Chalet d'altitude sur les pistes de Val Thorens, dans les 3 Vallées. Restaurant et terrasse avec vue panoramic."
+        />
+        <meta
+          name="keywords"
+          content="restaurant, Val Thorens, 3 Vallées, snack, pistes, chalet, panoramic"
+        />
+        <link
+          rel="canonical"
+          href="https://www.chalet-du-caribou.com/restaurant"
+        />
+      </Helmet>
       <img src={barre} className="barre" alt="" />
 
       <div className="button-container hidden-desktop">

@@ -41,6 +41,10 @@ export const french = {
     " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbilaoreet felis in est cursus, fringilla finibus ex euismod. Utmaximus nunc sed blandit scelerisque. Fusce porta tortor non dignissim facilisis. Aenean nec sodales sapien. Donec pretium enimipsum, eget fermentum leo molestie at. Proin eget enim ultricies,tempor tortor a, luctus urna. Phasellus dictum neque id tortor congue bibendum. Cras tincidunt sem ac erat feugiat pellentesque. Vestibulum a quam enim.",
   menu: "Menu",
 
+  snackText1:
+    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbilaoreet felis in est cursus, fringilla finibus ex euismod. Utmaximus nunc sed blandit scelerisque. Fusce porta tortor non dignissim facilisis. Aenean nec sodales sapien. Donec pretium enimipsum, eget fermentum leo molestie at. Proin eget enim ultricies,tempor tortor a, luctus urna. Phasellus dictum neque id tortor congue bibendum. Cras tincidunt sem ac erat feugiat pellentesque. Vestibulum a quam enim.",
+
   winterCafe: " Take away and delivery in Val Thorens",
   copyright: "Copyright Caribou 2021 Created by Rianne Streef ",
+  legal: "Mentions Légales",
 };
