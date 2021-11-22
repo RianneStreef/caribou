@@ -164,8 +164,48 @@ a:active {
 }
 
 
+.barre1 {
+  margin-top: -25px;
+  width: 100vw;
+}
 
+.barre2 {
+  margin-bottom: -11px;
+  width: 100vw;
+}
 
+.barre3 {
+  margin-top: -25px;
+  width: 100vw;
+}
+
+.barre4 {
+  margin-bottom: -9px;
+  width: 100vw;
+}
+
+.barre5 {
+  margin-top: -20px;
+  width: 100vw;
+}
+
+.barre6 {
+  margin-top: -10px;
+  width: 100vw;
+}
+
+.barre7 {
+  margin-bottom: -4px;
+  width: 100vw;
+  z-index: 999
+}
+
+.barre8 {
+  margin-top: -10px;
+  width: 100vw;
+}
+
+@media only screen and (min-width: 400px) {
 
 .barre1 {
   margin-top: -20px;
@@ -207,7 +247,7 @@ a:active {
   margin-top: -10px;
   width: 100vw;
 }
-
+}
 
 
 @media only screen and (min-width: 600px) {

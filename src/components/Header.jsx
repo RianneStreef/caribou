@@ -60,14 +60,22 @@ const Header = (props) => {
               {" "}
               <img src={mobile} className="mobile-icon" alt="telephone icon" />
             </a>
-            <a href="https://instagram.com">
+            <a
+              href="https://www.instagram.com/chaletlecaribou/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={instagram}
                 className="instagram-icon hidden-mobile"
                 alt="instagram icon"
               />
             </a>
-            <a href="https://facebook.com">
+            <a
+              href="https://www.facebook.com/pages/Chalet%20Le%20Caribou%20Val%20Thorens/172348316165889/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={facebook}
                 className="instagram-icon hidden-mobile"

@@ -61,7 +61,7 @@
 
 .page-links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
 }
 
@@ -90,8 +90,10 @@
     width: 50%;
   }
 
-  .footer-barre {
-    margin-bottom: -25px;
+  .page-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   
 }
