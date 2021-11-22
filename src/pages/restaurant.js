@@ -34,7 +34,7 @@ const RestaurantPage = (props) => {
           href="https://www.chalet-du-caribou.com/restaurant"
         />
       </Helmet>
-      <img src={barre} className="barre" alt="" />
+      <img src={barre} className="barre6" alt="" />
       <div>
         <h2 className="hidden-desktop title">{languageToUse.restaurant}</h2>
       </div>
@@ -67,10 +67,11 @@ const RestaurantPage = (props) => {
     <p className="rest-text">{languageToUse.restText2}</p>
   </div> */}
       </div>
-      <img src={barre} className="footer-barre" alt="" />
+      <img src={barre} className="barre7" alt="" />
 
       <div className="rest-image-1-container" />
-      <img src={barre} className="footer-barre" alt="" />
+      <img src={barre} className="barre8" alt="" />
+      <div className="footer-margin" />
     </>
   );
 };

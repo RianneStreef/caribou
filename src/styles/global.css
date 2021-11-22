@@ -142,6 +142,10 @@ a:active {
   display: none;
 }
 
+.footer-margin {
+  height: 5vh;
+}
+
 
 @media (min-width: 768px) {
   .hidden-mobile {
@@ -188,6 +192,22 @@ a:active {
   width: 100vw;
 }
 
+.barre6 {
+  margin-top: -10px;
+  width: 100vw;
+}
+
+.barre7 {
+  margin-bottom: -8px;
+  width: 100vw;
+  z-index: 999
+}
+
+.barre8 {
+  margin-top: -10px;
+  width: 100vw;
+}
+
 
 
 @media only screen and (min-width: 600px) {
@@ -213,6 +233,21 @@ a:active {
   
   .barre5 {
     margin-top: -20px;
+    width: 100vw;
+  }
+  .barre6 {
+    margin-top: -10px;
+    width: 100vw;
+  }
+  
+  .barre7 {
+    margin-bottom: -12px;
+    width: 100vw;
+    z-index: 999
+  }
+  
+  .barre8 {
+    margin-top: -10px;
     width: 100vw;
   }
 }
@@ -242,6 +277,21 @@ a:active {
     margin-top: -20px;
     width: 100vw;
   }
+  .barre6 {
+    margin-top: -16px;
+    width: 100vw;
+  }
+  
+  .barre7 {
+    margin-bottom: -19px;
+    width: 100vw;
+    z-index: 999
+  }
+  
+  .barre8 {
+    margin-top: -16px;
+    width: 100vw;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -269,6 +319,21 @@ a:active {
     margin-top: -20px;
     width: 100vw;
   }
+  .barre6 {
+    margin-top: -21px;
+    width: 100vw;
+  }
+  
+  .barre7 {
+    margin-bottom: -21px;
+    width: 100vw;
+    z-index: 999
+  }
+  
+  .barre8 {
+    margin-top: -17px;
+    width: 100vw;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -294,6 +359,22 @@ a:active {
   
   .barre5 {
     margin-top: -20px;
+    width: 100vw;
+  }
+
+  .barre6 {
+    margin-top: -25px;
+    width: 100vw;
+  }
+  
+  .barre7 {
+    margin-bottom: -30px;
+    width: 100vw;
+    z-index: 999
+  }
+  
+  .barre8 {
+    margin-top: -13px;
     width: 100vw;
   }
 }

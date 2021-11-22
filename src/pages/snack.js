@@ -33,7 +33,7 @@ const SnackPage = (props) => {
         />
         <link rel="canonical" href="https://www.chalet-du-caribou.com/snack" />
       </Helmet>
-      <img src={barre} className="barre" alt="" />
+      <img src={barre} className="barre6" alt="" />
       <div>
         <h2 className="hidden-desktop title">{languageToUse.snack}</h2>
       </div>
@@ -76,10 +76,11 @@ const SnackPage = (props) => {
         </p>
       </div> */}
       </div>
-      <img src={barre} className="footer-barre" alt="" />
+      <img src={barre} className="barre7" alt="" />
 
       <div className="rest-image-1-container" />
-      <img src={barre} className="footer-barre" alt="" />
+      <img src={barre} className="barre8" alt="" />
+      <div className="footer-margin" />
     </>
   );
 };
