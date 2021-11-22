@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 
 import barre from "../images/barre-white.png";
 
-import restImg1 from "../images/rest-img-1.jpeg";
 import menu from "../../menu.pdf";
 import { content } from "../content/languages";
 import { Helmet } from "react-helmet";
@@ -36,6 +35,9 @@ const RestaurantPage = (props) => {
         />
       </Helmet>
       <img src={barre} className="barre" alt="" />
+      <div>
+        <h2 className="hidden-desktop title">{languageToUse.restaurant}</h2>
+      </div>
 
       <div className="button-container hidden-desktop">
         <a href={menu} target="blank" className=" button-link hidden-desktop">

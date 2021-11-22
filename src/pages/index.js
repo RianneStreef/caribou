@@ -40,7 +40,7 @@ const IndexPage = (props) => {
         />
         <link rel="canonical" href="https://www.chalet-du-caribou.com/" />
       </Helmet>
-      <img src={barre} className="barre" alt="" />
+      <img src={barre} className="barre1" alt="" />
       <Intro
         platDuJour={platDuJour}
         prix={prix}
@@ -50,17 +50,17 @@ const IndexPage = (props) => {
         language={language}
         languageToUse={languageToUse}
       />
-      <img src={barre} className="barre-top" alt="" />
+      <img src={barre} className="barre2" alt="" />
       <div className="banner banner-middle">
         <h2>New!</h2>
       </div>
-      <img src={barre} className="barre" alt="" />
+      <img src={barre} className="barre3" alt="" />
       <New language={language} languageToUse={languageToUse} />
-      <img src={barre} className="barre-top" alt="" />{" "}
+      <img src={barre} className="barre4" alt="" />{" "}
       <div className="banner banner-bottom">
         <h2>{languageToUse.contact}</h2>
       </div>
-      <img src={barre} className="barre" alt="" />
+      <img src={barre} className="barre5" alt="" />
       <Contact language={language} languageToUse={languageToUse} />
     </div>
   );

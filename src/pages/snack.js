@@ -34,6 +34,9 @@ const SnackPage = (props) => {
         <link rel="canonical" href="https://www.chalet-du-caribou.com/snack" />
       </Helmet>
       <img src={barre} className="barre" alt="" />
+      <div>
+        <h2 className="hidden-desktop title">{languageToUse.snack}</h2>
+      </div>
 
       <div className="button-container hidden-desktop">
         <a href={menu} target="blank" className=" button-link hidden-desktop">

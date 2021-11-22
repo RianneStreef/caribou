@@ -3,7 +3,6 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  background-color: rgb(255, 255, 255);
 }
 
  h1 {
@@ -53,9 +52,6 @@
   top: 100px;
 }
 
-.title {
-  color: var(--color-text-dark);
-}
 
 .hide {
   transform: scaleY(0) ;
