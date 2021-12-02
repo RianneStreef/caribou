@@ -100,7 +100,7 @@ a:active {
 } 
 
 .banner-middle {
-  background-image: url("../images/kotas-banner.jpg");
+  background-image: url("../images/kota-cropped.jpeg");
 }
 
 
@@ -114,7 +114,7 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

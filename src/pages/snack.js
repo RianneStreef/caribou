@@ -7,8 +7,6 @@ import { content } from "../content/languages";
 
 import { Helmet } from "react-helmet";
 
-import snackImg1 from "../images/rest-img-1.jpeg";
-
 import menu from "../../menu.pdf";
 import barre from "../images/barre-white.png";
 
