@@ -122,14 +122,14 @@ const Navbar = (props) => {
           </Link>
         </li>
         <li className="social-links-header">
-          <a href="https://instagram.com">
+          <a href="https://www.instagram.com/chaletlecaribou/">
             <img
               src={instagram}
               className="instagram-icon "
               alt="instagram icon"
             />
           </a>
-          <a href="https://facebook.com">
+          <a href="https://www.facebook.com/pages/Chalet%20Le%20Caribou%20Val%20Thorens/172348316165889/">
             <img
               src={facebook}
               className="instagram-icon "

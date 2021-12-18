@@ -86,14 +86,14 @@ const Header = (props) => {
               {language === "english" ? (
                 <img
                   className="language-icon"
-                  src={flagEn}
+                  src={flagFr}
                   onClick={() => handleSetLanguage("french")}
                   alt="Set language to French"
                 />
               ) : (
                 <img
                   className="language-icon"
-                  src={flagFr}
+                  src={flagEn}
                   onClick={() => handleSetLanguage("english")}
                   alt="Set language to English"
                 />
@@ -102,7 +102,11 @@ const Header = (props) => {
           </div>
 
           <div className="hidden-desktop">
-            <Burger />
+            <Burger
+              language={language}
+              setLanguage={setLanguage}
+              languageToUse={languageToUse}
+            />
           </div>
         </div>
       </nav>

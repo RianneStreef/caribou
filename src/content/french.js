@@ -1,7 +1,7 @@
 export const french = {
   language: "french",
 
-  home: "Home",
+  home: "Accueil",
   new: "Nouveau",
   contact: "Contact",
   restaurant: "Restaurant",

@@ -147,7 +147,7 @@ a:active {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1050px) {
   .hidden-mobile {
     display: block;
   }
