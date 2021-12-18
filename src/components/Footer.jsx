@@ -53,14 +53,14 @@ const Footer = (props) => {
                 alt="telephone icon"
               />
             </a>
-            <a href="https://instagram.com">
+            <a href="https://www.instagram.com/chaletlecaribou/">
               <img
                 src={instagram}
                 className="social-link"
                 alt="instagram icon"
               />
             </a>
-            <a href="https://facebook.com">
+            <a href="https://www.facebook.com/pages/Chalet%20Le%20Caribou%20Val%20Thorens/172348316165889/">
               <img src={facebook} className="social-link" alt="facebook icon" />
             </a>
           </div>

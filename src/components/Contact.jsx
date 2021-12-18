@@ -13,7 +13,13 @@ const Contact = (props) => {
     <div className="contact" id="contact">
       <section className="contact-page">
         <div className="contact-text ">
-          <p>{languageToUse.contact2}</p>
+          <p>
+            <span> {languageToUse.contact2}</span>
+            <a href="tel:0033603456223" className="tel-number">
+              {languageToUse.contact3}
+            </a>
+            <span>{languageToUse.contact4}</span>
+          </p>
         </div>
         <form
           className="contact-form"

@@ -24,10 +24,12 @@ export const french = {
   kota2:
     "Vous avez envie d'avoir votre petit chalet à la montagne le temps d'un repas en famille ou entre amis ? Cela est maintenant possible avec nos deux kotas pouvant recevoir jusqu'à 8 personnes chacun...",
   kota3:
-    "Privatisation possible pour 100 euros par kota avec son petit coinde salon extérieur.",
+    "Privatisation possible pour 100 euros par kota avec son petit coin de salon extérieur.",
 
   contact2:
-    " Vous pouvez nous joindre pour les réservations (uniquement par téléphone) et renseignements, au 06 03 45 62 23 ou ici.",
+    " Vous pouvez nous joindre pour les réservations (uniquement par téléphone) et renseignements, au",
+  contact3: " 06 03 45 62 23 ",
+  contact4: " ou ici.",
 
   name: "Nom:",
   email: "Email:",
@@ -43,7 +45,7 @@ export const french = {
   snackText1:
     " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbilaoreet felis in est cursus, fringilla finibus ex euismod. Utmaximus nunc sed blandit scelerisque. Fusce porta tortor non dignissim facilisis. Aenean nec sodales sapien. Donec pretium enimipsum, eget fermentum leo molestie at. Proin eget enim ultricies,tempor tortor a, luctus urna. Phasellus dictum neque id tortor congue bibendum. Cras tincidunt sem ac erat feugiat pellentesque. Vestibulum a quam enim.",
 
-  winterCafe: " Take away and delivery in Val Thorens",
-  copyright: "Copyright Caribou 2021 Created by Rianne Streef ",
+  winterCafe: " Emporter et livraison à Val Thorens",
+  copyright: "Copyright Caribou 2021 Crée par Rianne Streef ",
   legal: "Mentions Légales",
 };

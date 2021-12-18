@@ -50,6 +50,12 @@ textarea {
   justify-content: center;
 }
 
+.tel-number {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
 
 @media (min-width: 768px) {
   .contact-page {

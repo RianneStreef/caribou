@@ -86,14 +86,14 @@ const Header = (props) => {
               {language === "english" ? (
                 <img
                   className="language-icon"
-                  src={flagFr}
+                  src={flagEn}
                   onClick={() => handleSetLanguage("french")}
                   alt="Set language to French"
                 />
               ) : (
                 <img
                   className="language-icon"
-                  src={flagEn}
+                  src={flagFr}
                   onClick={() => handleSetLanguage("english")}
                   alt="Set language to English"
                 />
