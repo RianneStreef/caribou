@@ -1,6 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
 
+import favicon from "../images/icon.png";
+
 import Layout from "../components/Layout";
 import Intro from "../components/Intro";
 import New from "../components/New";
@@ -39,6 +41,7 @@ const IndexPage = (props) => {
           content="restaurant, Val Thorens, 3 Vallées, snack, pistes, chalet, panoramic"
         />
         <link rel="canonical" href="https://www.chalet-du-caribou.com/" />
+        <link rel="icon" href={favicon} />
       </Helmet>
       <img src={barre} className="barre1" alt="" />
       <Intro

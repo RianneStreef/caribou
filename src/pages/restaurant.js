@@ -4,6 +4,8 @@ import Layout from "../components/Layout";
 
 import barre from "../images/barre-white.png";
 
+import favicon from "../images/icon.png";
+
 import menu from "../../menu.pdf";
 import { content } from "../content/languages";
 import { Helmet } from "react-helmet";
@@ -33,6 +35,7 @@ const RestaurantPage = (props) => {
           rel="canonical"
           href="https://www.chalet-du-caribou.com/restaurant"
         />
+        <link rel="icon" href={favicon} />
       </Helmet>
       <img src={barre} className="barre6" alt="" />
       <div>

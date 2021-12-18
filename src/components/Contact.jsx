@@ -14,7 +14,6 @@ const Contact = (props) => {
       <section className="contact-page">
         <div className="contact-text ">
           <p>{languageToUse.contact2}</p>
-          <p>{languageToUse.contact3}</p>
         </div>
         <form
           className="contact-form"

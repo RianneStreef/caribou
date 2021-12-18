@@ -197,7 +197,7 @@ a:active {
 .barre7 {
   margin-bottom: -4px;
   width: 100vw;
-  z-index: 999
+  z-index: 500;
 }
 
 .barre8 {

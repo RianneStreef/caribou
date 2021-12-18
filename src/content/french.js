@@ -26,9 +26,8 @@ export const french = {
   kota3:
     "Privatisation possible pour 100 euros par kota avec son petit coinde salon extérieur.",
 
-  contact2: "WE DONT TAKE RESERVATIONS VIA INTERNET",
-  contact3:
-    " Vous pouvez nous joindre pour les réservations et renseignements, par téléphone au 06 03 45 62 23.",
+  contact2:
+    " Vous pouvez nous joindre pour les réservations (uniquement par téléphone) et renseignements, au 06 03 45 62 23 ou ici.",
 
   name: "Nom:",
   email: "Email:",

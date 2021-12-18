@@ -7,6 +7,8 @@ import { content } from "../content/languages";
 
 import { Helmet } from "react-helmet";
 
+import favicon from "../images/icon.png";
+
 import menu from "../../menu.pdf";
 import barre from "../images/barre-white.png";
 
@@ -30,6 +32,7 @@ const SnackPage = (props) => {
           content="restaurant, Val Thorens, 3 Vallées, snack, pistes, chalet, panoramic"
         />
         <link rel="canonical" href="https://www.chalet-du-caribou.com/snack" />
+        <link rel="icon" href={favicon} />
       </Helmet>
       <img src={barre} className="barre6" alt="" />
       <div>
