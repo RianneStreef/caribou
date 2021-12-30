@@ -25,8 +25,6 @@ const IndexPage = (props) => {
   let { platDuJour, prix, description, descriptionEn, date } =
     props.data.allContentfulPlatDuJour.nodes[0];
 
-  console.log(platDuJour, prix, description, descriptionEn, date);
-
   return (
     <div>
       <Helmet>

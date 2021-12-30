@@ -6,8 +6,6 @@ import { content } from "../content/languages";
 const PlatDuJour = (props) => {
   let { platDuJour, prix, description, descriptionEn, date } = props;
 
-  console.log(platDuJour, prix, description, descriptionEn, date);
-
   let { language, languageToUse } = props;
 
   language === "english"
