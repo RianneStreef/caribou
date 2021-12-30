@@ -6,7 +6,7 @@ import barre from "../images/barre-white.png";
 
 import favicon from "../images/icon.png";
 
-import menu from "../../menu.pdf";
+import menuRest from "../content/menuRestaurant.pdf";
 import { content } from "../content/languages";
 import { Helmet } from "react-helmet";
 
@@ -39,11 +39,15 @@ const RestaurantPage = (props) => {
       </Helmet>
       <img src={barre} className="barre6" alt="" />
       <div>
-        <h2 className="hidden-desktop title">{languageToUse.restaurant}</h2>
+        <h2 className="title">{languageToUse.restaurant}</h2>
       </div>
 
       <div className="button-container hidden-desktop">
-        <a href={menu} target="blank" className=" button-link hidden-desktop">
+        <a
+          href={menuRest}
+          target="blank"
+          className=" button-link hidden-desktop"
+        >
           {languageToUse.menu}
         </a>
       </div>
@@ -53,7 +57,7 @@ const RestaurantPage = (props) => {
             <p className="rest-text">{languageToUse.restText1}</p>
             <div className="button-container hidden-mobile">
               <a
-                href={menu}
+                href={menuRest}
                 target="blank"
                 className=" button-link  hidden-mobile"
               >

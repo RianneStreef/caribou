@@ -1,5 +1,5 @@
 .snack-container {
-  margin: 100px 30px;
+  margin: 50px 30px;
   color: white;
   background-image: url("../images/wood-background-dark.jpeg");
   background-attachment: fixed;
@@ -12,7 +12,7 @@
   margin-bottom: 50px;
 }
 
-.snack-2{
+.snack-2 {
   display: flex;
   flex-direction: column-reverse;
   margin-top: 50px;
@@ -49,17 +49,14 @@
 }
 
 @media (min-width: 768px) {
-  
   .snack-1 {
     flex-direction: row;
   }
-  
-  .snack-2{
+
+  .snack-2 {
     flex-direction: row-reverse;
   }
   .snack-text-container {
     flex-direction: column;
   }
 }
-
-

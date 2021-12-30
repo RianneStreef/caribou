@@ -37,13 +37,13 @@ export const french = {
   send: "Envoyer",
 
   restText1:
-    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbilaoreet felis in est cursus, fringilla finibus ex euismod. Utmaximus nunc sed blandit scelerisque. Fusce porta tortor non dignissim facilisis. Aenean nec sodales sapien. Donec pretium enimipsum, eget fermentum leo molestie at. Proin eget enim ultricies,tempor tortor a, luctus urna. Phasellus dictum neque id tortor congue bibendum. Cras tincidunt sem ac erat feugiat pellentesque. Vestibulum a quam enim.",
-  restText2:
-    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbilaoreet felis in est cursus, fringilla finibus ex euismod. Utmaximus nunc sed blandit scelerisque. Fusce porta tortor non dignissim facilisis. Aenean nec sodales sapien. Donec pretium enimipsum, eget fermentum leo molestie at. Proin eget enim ultricies,tempor tortor a, luctus urna. Phasellus dictum neque id tortor congue bibendum. Cras tincidunt sem ac erat feugiat pellentesque. Vestibulum a quam enim.",
+    " Une grande terrasse panoramique pour profiter du soleil, un beau feu de cheminée quand il fait froid, c'est ce que vous offre le Chalet pour partager en famille et entre amis un agréable moment autour d'un bon repas!",
   menu: "Menu",
 
   snackText1:
-    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbilaoreet felis in est cursus, fringilla finibus ex euismod. Utmaximus nunc sed blandit scelerisque. Fusce porta tortor non dignissim facilisis. Aenean nec sodales sapien. Donec pretium enimipsum, eget fermentum leo molestie at. Proin eget enim ultricies,tempor tortor a, luctus urna. Phasellus dictum neque id tortor congue bibendum. Cras tincidunt sem ac erat feugiat pellentesque. Vestibulum a quam enim.",
+    "Pour les plus impatients de profiter des pistes, notre coin snack vous attend ...",
+
+  comingSoon: "Menu bientôt disponible!",
 
   winterCafe: " Emporter et livraison à Val Thorens",
   copyright: "Copyright Caribou 2021 Crée par Rianne Streef ",

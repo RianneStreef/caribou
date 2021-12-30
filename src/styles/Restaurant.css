@@ -1,5 +1,5 @@
 .restaurant-container {
-  margin: 100px 30px;
+  margin: 50px 30px;
   background-image: url("../images/wood-background-dark.jpeg");
   background-attachment: fixed;
   background-size: cover;
@@ -7,11 +7,11 @@
 
 .rest-1 {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 
-.rest-2{
+.rest-2 {
   display: flex;
   flex-direction: column-reverse;
   margin-top: 50px;
@@ -51,10 +51,7 @@
 }
 
 @media (min-width: 768px) {
-
   .rest-text-container {
     flex-direction: column;
   }
 }
-
-
