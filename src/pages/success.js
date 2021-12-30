@@ -4,9 +4,16 @@ import Layout from "../components/Layout";
 import favicon from "../images/icon.png";
 import { Helmet } from "react-helmet";
 
+import { content } from "../content/languages";
+
 import "../styles/SuccessPage.css";
 
-const SuccessPage = () => {
+const SuccessPage = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
     <>
       <Helmet>
@@ -23,8 +30,10 @@ const SuccessPage = () => {
         <link rel="canonical" href="https://www.chalet-du-caribou.com/" />
         <link rel="icon" href={favicon} />
       </Helmet>
-      <div className="menu-placeholder" />
-      <div>Thank you for your message!</div>
+      <div className="success-page">
+        <div className="menu-placeholder" />
+        <h2 className="success-message">{languageToUse.successMessage}</h2>
+      </div>
     </>
   );
 };

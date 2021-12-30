@@ -44,6 +44,8 @@ export const english = {
     "For the ones that are impatient to enjoy the slopes, our snack corner is waiting for you...",
   comingSoon: "Menu coming soon!",
 
+  successMessage: "Thank you for your message!",
+
   winterCafe: " Take away and delivery in Val Thorens",
   copyright: "Copyright Caribou 2021 Created by Rianne Streef ",
   legal: "Legal mentions",
