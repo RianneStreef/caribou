@@ -13,8 +13,6 @@ export const english = {
 
   dish: "Today's Special",
 
-  new: "New",
-
   soiree1: "Evenings",
   soiree2: "Tuesday and Thursday evening, on reservation.",
   soiree3:

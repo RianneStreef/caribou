@@ -1,19 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "gatsby";
 
 import logoWhite from "../images/logo-white.png";
 
-import { content } from "../content/languages";
 import "../styles/Landing.css";
 
-const Landing = (props) => {
+const Landing = () => {
   let [pathname, setPathname] = useState("");
-
-  let { language, languageToUse } = props;
-
-  language === "english"
-    ? (languageToUse = content.english)
-    : (languageToUse = content.french);
 
   useEffect(() => {
     setPathname(window.location.pathname);

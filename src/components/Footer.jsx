@@ -24,7 +24,9 @@ const Footer = (props) => {
       <div className="footer">
         <div className="link-winter">
           <p className="link-winter-text">{languageToUse.winterCafe}</p>
-          <img src={Winter} className="winter-logo" alt="Winter Cafe Logo" />
+          <a href="https://wintercafe.fr/">
+            <img src={Winter} className="winter-logo" alt="Winter Cafe Logo" />
+          </a>
         </div>
 
         <div className="right-footer">

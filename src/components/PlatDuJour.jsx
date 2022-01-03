@@ -24,7 +24,7 @@ const PlatDuJour = (props) => {
       <div className="plat-du-jour">
         <h4 className="plat-du-jour-name">{platDuJour}</h4>
         <p>€{prix}</p>
-        {languageToUse.language == "french" ? (
+        {languageToUse.language === "french" ? (
           <p>{description}</p>
         ) : (
           <p>{descriptionEn}</p>
