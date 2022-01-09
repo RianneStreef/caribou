@@ -5,8 +5,8 @@
   color: white;
 }
 
- h1 {
-  color:#000;
+h1 {
+  color: #000;
   border-bottom: 1px solid #000;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .snack-banner {
-  background-image: url("../images//snack-header.jpeg");
+  background-image: url("../images/rest-img-2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,9 +52,8 @@
   top: 100px;
 }
 
-
 .hide {
-  transform: scaleY(0) ;
+  transform: scaleY(0);
   transition: transform 500ms ease-in;
 }
 
@@ -96,13 +95,11 @@
 
   .restaurant-banner {
     background-size: cover;
-    height: 50vh;
-
+    height: 70vh;
   }
   .snack-banner {
     background-size: cover;
-    height: 50vh;
-
+    height: 70vh;
   }
 
   .home-banner {
@@ -112,5 +109,4 @@
   .landing-container {
     justify-content: space-around;
   }
-  
 }

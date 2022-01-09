@@ -50,8 +50,28 @@
   flex-direction: column-reverse;
 }
 
+.restaurant-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.restaurant-menu-page {
+  margin: 10px;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .rest-text-container {
     flex-direction: column;
+  }
+  .restaurant-menu {
+    margin: 100px;
+  }
+
+  .restaurant-menu-page {
+    margin: 40px;
   }
 }

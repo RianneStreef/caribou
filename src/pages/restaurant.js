@@ -1,12 +1,12 @@
 import React from "react";
 
 import Layout from "../components/Layout";
+import { Link } from "gatsby";
 
 import barre from "../images/barre-white.png";
 
 import favicon from "../images/icon.png";
 
-import menuRest from "../content/menuRestaurant.pdf";
 import { content } from "../content/languages";
 import { Helmet } from "react-helmet";
 
@@ -43,26 +43,18 @@ const RestaurantPage = (props) => {
       </div>
 
       <div className="button-container hidden-desktop">
-        <a
-          href={menuRest}
-          target="blank"
-          className=" button-link hidden-desktop"
-        >
+        <Link to="/menu" className=" button-link hidden-desktop">
           {languageToUse.menu}
-        </a>
+        </Link>
       </div>
       <div className="restaurant-container">
         <div className="rest-1">
           <div className="rest-text-container">
             <p className="rest-text">{languageToUse.restText1}</p>
             <div className="button-container hidden-mobile">
-              <a
-                href={menuRest}
-                target="blank"
-                className=" button-link  hidden-mobile"
-              >
+              <Link to="/menu" className=" button-link  hidden-mobile">
                 {languageToUse.menu}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

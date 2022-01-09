@@ -100,10 +100,12 @@ a:active {
 
 .banner-middle {
   background-image: url("../images/kota2.jpg");
+  height: 30vh;
 }
 
 .banner-bottom {
   background-image: url("../images/footer-banner.jpg");
+  height: 50vh;
 }
 
 .banner {
@@ -111,7 +113,6 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -324,6 +325,9 @@ a:active {
   .barre8 {
     margin-top: -16px;
     width: 100vw;
+  }
+  .banner-middle {
+    height: 80vh;
   }
 }
 
