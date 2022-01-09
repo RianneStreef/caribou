@@ -16,7 +16,7 @@ export const english = {
   soiree1: "Evenings",
   soiree2: "Tuesday and Thursday evening, on reservation.",
   soiree3:
-    "A Savoie themed dinner with a choice of cheese fondue, raclette or tartiflette. 30 euros per person, drinks charged separately.",
+    "A Savoie themed dinner with a choice of cheese fondue, raclette or tartiflette. 35 euros per person, drinks charged separately.",
 
   kota1: "Two Finish Kotas",
   kota2:

@@ -53,7 +53,7 @@ const IndexPage = (props) => {
       />
       <img src={barre} className="barre2" alt="" />
       <div className="banner banner-middle">
-        <h2>New!</h2>
+        <h2>{languageToUse.new}!</h2>
       </div>
       <img src={barre} className="barre3" alt="" />
       <New language={language} languageToUse={languageToUse} />
