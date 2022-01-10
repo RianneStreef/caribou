@@ -6,18 +6,18 @@ import favicon from "../images/icon.png";
 
 import menu1 from "../content/menu-restaurant/menuRestaurant-page-001.jpg";
 import menu2 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu3 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu4 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu5 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu6 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu7 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu8 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu9 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu10 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu11 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu12 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu13 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
-import menu14 from "../content/menu-restaurant/menuRestaurant-page-002.jpg";
+import menu3 from "../content/menu-restaurant/menuRestaurant-page-003.jpg";
+import menu4 from "../content/menu-restaurant/menuRestaurant-page-004.jpg";
+import menu5 from "../content/menu-restaurant/menuRestaurant-page-005.jpg";
+import menu6 from "../content/menu-restaurant/menuRestaurant-page-006.jpg";
+import menu7 from "../content/menu-restaurant/menuRestaurant-page-007.jpg";
+import menu8 from "../content/menu-restaurant/menuRestaurant-page-008.jpg";
+import menu9 from "../content/menu-restaurant/menuRestaurant-page-009.jpg";
+import menu10 from "../content/menu-restaurant/menuRestaurant-page-010.jpg";
+import menu11 from "../content/menu-restaurant/menuRestaurant-page-011.jpg";
+import menu12 from "../content/menu-restaurant/menuRestaurant-page-012.jpg";
+import menu13 from "../content/menu-restaurant/menuRestaurant-page-013.jpg";
+import menu14 from "../content/menu-restaurant/menuRestaurant-page-014.jpg";
 
 const MenuPage = () => {
   return (

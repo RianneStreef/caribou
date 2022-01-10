@@ -129,7 +129,7 @@ const Navbar = (props) => {
               alt="instagram icon"
             />
           </a>
-          <a href="https://www.facebook.com/pages/Chalet%20Le%20Caribou%20Val%20Thorens/172348316165889/">
+          <a href="https://www.facebook.com/profile.php?id=100057589542546">
             <img
               src={facebook}
               className="instagram-icon "
