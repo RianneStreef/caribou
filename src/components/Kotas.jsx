@@ -3,6 +3,7 @@ import React from "react";
 import "../styles/Soirees.css";
 
 import { content } from "../content/languages";
+import kotaNight from "../images/kota-night.jpg";
 
 const Kotas = (props) => {
   let { language, languageToUse } = props;
@@ -21,6 +22,7 @@ const Kotas = (props) => {
           <p>{languageToUse.kota3}</p>
         </div>
       </div>{" "}
+      {/* <img src={kotaNight} alt="Kota by night" className="feature-img" /> */}
     </div>
   );
 };

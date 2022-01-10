@@ -57,11 +57,11 @@ const SnackPage = (props) => {
           </a>
         </div> */}
       </div>
-      <img src={barre} className="barre7" alt="" />
+      {/* <img src={barre} className="barre7" alt="" />
 
       <div className="rest-image-1-container" />
       <img src={barre} className="barre8" alt="" />
-      <div className="footer-margin" />
+      <div className="footer-margin" /> */}
     </>
   );
 };
