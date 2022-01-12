@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../styles/Soirees.css";
+import dammeuse from "../images/dammeuse.jpg";
 
 import { content } from "../content/languages";
 
@@ -11,7 +12,9 @@ const Soirees = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
   return (
-    <div className="new-feature">
+    <div className="new-feature new-feature-soirees">
+      <img src={dammeuse} alt="Dammeuse" className="feature-img" />
+
       <div className="feature-items soirees">
         <div className="feature-imgs">
           <h2 className="new-title">{languageToUse.soiree1}</h2>

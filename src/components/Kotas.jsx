@@ -22,7 +22,7 @@ const Kotas = (props) => {
           <p>{languageToUse.kota3}</p>
         </div>
       </div>{" "}
-      {/* <img src={kotaNight} alt="Kota by night" className="feature-img" /> */}
+      <img src={kotaNight} alt="Kota by night" className="feature-img" />
     </div>
   );
 };

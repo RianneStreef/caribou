@@ -32,6 +32,10 @@
   align-items: center;
 }
 
+.new-feature-soirees {
+  flex-direction: column-reverse;
+}
+
 .feature-items {
   display: flex;
   flex-direction: column;

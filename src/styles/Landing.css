@@ -19,14 +19,14 @@ h1 {
 }
 
 .restaurant-banner {
-  background-image: url("../images/rest-landing.jpeg");
+  background-image: url("../images/fire-place.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .snack-banner {
-  background-image: url("../images/rest-img-2.jpeg");
+  background-image: url("../images/rest-img-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
