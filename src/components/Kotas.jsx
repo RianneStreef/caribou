@@ -13,17 +13,19 @@ const Kotas = (props) => {
     : (languageToUse = content.french);
 
   return (
-    <div className="new-feature">
-      <div className="feature-items kotas">
-        <h2 className="new-title">Kota</h2>
-        <div className="feature-description">
-          <p>{languageToUse.kota1}</p>
-          <p>{languageToUse.kota2}</p>
-          <p>{languageToUse.kota3}</p>
-        </div>
-      </div>{" "}
-      <img src={kotaNight} alt="Kota by night" className="feature-img" />
-    </div>
+    <>
+      <h2 className="new-title">Kota</h2>
+      <div className="new-feature">
+        <div className="feature-items kotas">
+          <div className="feature-description">
+            <p>{languageToUse.kota1}</p>
+            <p>{languageToUse.kota2}</p>
+            <p>{languageToUse.kota3}</p>
+          </div>
+        </div>{" "}
+        <img src={kotaNight} alt="Kota by night" className="feature-img" />
+      </div>
+    </>
   );
 };
 
