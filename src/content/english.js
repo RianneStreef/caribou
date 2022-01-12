@@ -45,6 +45,6 @@ export const english = {
   successMessage: "Thank you for your message!",
 
   winterCafe: " Take away and delivery in Val Thorens",
-  copyright: "Copyright Caribou 2021 Created by Rianne Streef ",
+  copyright: "Copyright Caribou 2021 Created by ",
   legal: "Legal mentions",
 };

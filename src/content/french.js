@@ -46,6 +46,6 @@ export const french = {
   successMessage: "Merci pour votre message!",
 
   winterCafe: " Emporter et livraison à Val Thorens",
-  copyright: "Copyright Caribou 2021 Crée par Rianne Streef ",
+  copyright: "Copyright Caribou 2021 Crée par ",
   legal: "Mentions Légales",
 };
