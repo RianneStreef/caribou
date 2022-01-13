@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import { Link } from "gatsby";
 
 import barre from "../images/barre-white.png";
+import rest from "../images/restaurant.jpg";
 
 import favicon from "../images/icon.png";
 
@@ -68,7 +69,8 @@ const RestaurantPage = (props) => {
       </div>
       <img src={barre} className="barre7" alt="" />
 
-      <div className="rest-image-1-container" />
+      <div className="rest-image-1-container" hidden-mobile />
+      <img className="hidden-desktop" src={rest} alt="" />
       <img src={barre} className="barre8" alt="" />
       <div className="footer-margin" />
     </>
