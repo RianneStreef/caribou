@@ -69,8 +69,8 @@ const RestaurantPage = (props) => {
       </div>
       <img src={barre} className="barre7" alt="" />
 
-      <div className="rest-image-1-container" hidden-mobile />
-      <img className="hidden-desktop" src={rest} alt="" />
+      <div className="rest-image-1-container" hidden-mobile-img />
+      <img className="hidden-desktop-img" src={rest} alt="" />
       <img src={barre} className="barre8" alt="" />
       <div className="footer-margin" />
     </>

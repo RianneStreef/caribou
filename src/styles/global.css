@@ -132,6 +132,10 @@ a:active {
   display: none;
 }
 
+.hidden-mobile-img {
+  display: none;
+}
+
 .hidden-menu-mobile {
   display: none;
 }
@@ -287,6 +291,12 @@ a:active {
 }
 
 @media only screen and (min-width: 768px) {
+  .hidden-mobile-img {
+    display: block;
+  }
+  .hidden-desktop-img {
+    display: none;
+  }
   .barre1 {
     margin-top: -20px;
     width: 100vw;

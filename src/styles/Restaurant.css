@@ -27,13 +27,6 @@
   padding: 0;
 }
 
-.rest-image-1-container {
-  background-image: url("../images/restaurant.jpg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .rest-img {
   width: 80%;
   margin: 30px;
@@ -72,7 +65,12 @@
   .restaurant-menu-page {
     margin: 40px;
   }
+
   .rest-image-1-container {
+    background-image: url("../images/restaurant.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 40vh;
