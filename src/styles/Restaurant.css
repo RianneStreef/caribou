@@ -29,7 +29,7 @@
 
 .rest-image-1-container {
   background-image: url("../images/restaurant.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -73,5 +73,8 @@
 
   .restaurant-menu-page {
     margin: 40px;
+  }
+  .rest-image-1-container {
+    background-size: cover;
   }
 }
