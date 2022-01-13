@@ -32,8 +32,6 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 40vh;
 }
 
 .rest-img {
@@ -76,5 +74,7 @@
   }
   .rest-image-1-container {
     background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
   }
 }
