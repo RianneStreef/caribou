@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/Layout";
 
@@ -39,23 +40,27 @@ const SnackPage = (props) => {
         <h2 className="title">{languageToUse.snack}</h2>
       </div>
 
-      {/* <div className="button-container">
-        <a href={menuSnack} target="blank" className=" button-link hidden-desktop">
+      <div className="button-container">
+        <Link
+          to="/menu-snack"
+          target="blank"
+          className=" button-link hidden-desktop"
+        >
           {languageToUse.menu}
-        </a>
-      </div> */}
-      <p>{languageToUse.comingSoon}</p>
+        </Link>
+      </div>
+      {/* <p>{languageToUse.comingSoon}</p> */}
       <div className="snack-container">
         <p className="snack-text">{languageToUse.snackText1}</p>
-        {/* <div className="button-container hidden-mobile">
-          <a
-            href={menuSnack}
+        <div className="button-container hidden-mobile">
+          <Link
+            to="/menu-snack"
             target="blank"
             className=" button-link hidden-mobile"
           >
             {languageToUse.menu}
-          </a>
-        </div> */}
+          </Link>
+        </div>
       </div>
       {/* <img src={barre} className="barre7" alt="" />
 

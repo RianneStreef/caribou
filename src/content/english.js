@@ -26,7 +26,7 @@ export const english = {
 
   contact2:
     "You can contact us for reservations (by telephone only), questions or suggestions at",
-  contact3: " +33 6 03 45 62 23 ",
+  contact3: " +33603456223",
   contact4: " or here. ",
 
   name: "Name:",

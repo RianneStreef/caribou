@@ -26,7 +26,7 @@ export const french = {
 
   contact2:
     " Vous pouvez nous joindre pour les réservations (uniquement par téléphone) et renseignements, au",
-  contact3: " 06 03 45 62 23 ",
+  contact3: " 0603456223",
   contact4: " ou ici.",
 
   name: "Nom:",
