@@ -16,7 +16,7 @@ export const french = {
   soiree1: "Soirées",
   soiree2: "Le mardi et le jeudi soir. Sur réservation.",
   soiree3:
-    "Soirée savoyarde avec au choix fondue savoyarde, raclette ou tartiflette au choix. 35 euros / personnes, boissons en supplément.",
+    "Soirée savoyarde avec au choix fondue savoyarde, raclette ou tartiflette au choix. 40 euros / personnes, boissons en supplément.",
 
   kota1: "Deux Kotas finlandais",
   kota2:
